@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include pyproject.toml
+
+# Package data
+include src/stegdetect_py/stegbreak.conf
+include src/stegdetect_py/py.typed
+
+# Tests (so the sdist is self-contained for downstream CI)
+recursive-include tests *.py

@@ -1,0 +1,66 @@
+# ----- Byte-compiled / optimized / DLL files -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ----- Distribution / packaging -----
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ----- Unit test / coverage / tooling caches -----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# ----- Virtual environments -----
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ----- IDE / editor -----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ----- OS -----
+.DS_Store
+Thumbs.db
+
+# ----- Local scratch / artifacts -----
+*.jpg.tmp
+clean.jpg
+smoke.jpg
+orig.jpg
+mod.jpg
+
+# ----- Project-specific (WorkBuddy) -----
+.workbuddy/
